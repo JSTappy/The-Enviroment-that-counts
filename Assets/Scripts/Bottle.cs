@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Bottle : MonoBehaviour
 {
+    RecycleBin recycleBin;
     // Start is called before the first frame update
     void Start()
     {
