@@ -16,6 +16,7 @@ public class PlayerActions : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (Input.GetKeyDown(KeyCode.E))
         {
             Debug.Log("E key was pressed");
