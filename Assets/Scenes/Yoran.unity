@@ -984,6 +984,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3810238096097556835, guid: cb297254b08ad4a46b12473d27d49334,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6834762572805261008, guid: cb297254b08ad4a46b12473d27d49334,
         type: 3}
       propertyPath: m_LocalPosition.x

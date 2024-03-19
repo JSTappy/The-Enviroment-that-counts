@@ -36,6 +36,7 @@ public class PlayerActions : MonoBehaviour
                     {
                         recycleBin.AddBottle(bag.bottles[0]);
                         bag.bottles.RemoveAt(0);
+                      
                     }
                 }
             }
