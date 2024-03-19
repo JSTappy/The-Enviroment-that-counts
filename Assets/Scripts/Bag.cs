@@ -24,8 +24,8 @@ public class Bag : MonoBehaviour
     }
 
     public void AddBottle(Bottle bottle)
-    {
-        bottles.Add(bottle);
-        bottleinhand.SetActive(true);
+    {  
+            bottles.Add(bottle);
+            bottleinhand.SetActive(true);
     }
 }
