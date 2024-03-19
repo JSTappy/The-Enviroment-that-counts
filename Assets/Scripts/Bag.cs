@@ -16,7 +16,10 @@ public class Bag : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (bottles.Count == 0) 
+        {
+            bottleinhand.SetActive(false);
+        }
         
     }
 
